@@ -1,0 +1,15 @@
+2013-04-23 Vasilis Pappas <vpappas@cs.columbia.edu>
+
+    * fixed a bug (possibly due to new IDA version..) where a basic
+      block may have twice the same successor if there is a conditional
+      jump with an offset of 0
+    * generate a file with all the changed bytes in -r mode (for debugging)
+
+2012-10-17 Vasilis Pappas <vpappas@cs.columbia.edu>
+
+    * use idautils.Entries() instead of pefile to get the exported functions
+    * fixed 'orp.py -d' so it does not use a lot of memory
+
+2012-05-23 Vasilis Pappas <vpappas@cs.columbia.edu>
+
+    * Initial release (expect bugs :))

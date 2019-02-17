@@ -1,0 +1,29 @@
+TODO items:
+
+* go through the function analysis/classification in func.py
+
+* relax some restrictions in reorder.py which don't allow some
+  instructions to be rordered (like call, etc.)
+
+* move swap related code from insn.py to swap.py (e.g. the
+  swap_registers function)
+
+* shrink the size of the ida dump files by only keeping the
+  minimal information (should be just the CFG..)
+
+* try to enable safe randomizations like equiv in parts of the
+  code that IDA has recognized but was not able to construct
+  the CFG (red areas)
+
+* investigate more functions that end with a jump (instead of ret)
+
+* add support for combining overlapping register swaps
+
+* add support for ELF binaries
+
+* add a toy ROP payload for testlib.dll for testing/demonstration
+  purposes
+
+* improve logging (maybe switch from print to the logging module)
+
+* add support for disassemblers other than IDA Pro

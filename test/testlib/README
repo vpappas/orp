@@ -1,0 +1,6 @@
+
+based on http://www.tidytutorials.com/2009/11/simple-windows-dll-example-with.html
+
+requires Visual Studio C++ (Express Edition is fine)
+
+compile using nmake
